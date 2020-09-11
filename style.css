@@ -1,0 +1,47 @@
+﻿body{
+	margin: 0;
+	background-color: #400010;
+}
+
+#main{
+	background-color: white;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo{
+	font-family: monotype corsiva;
+	font-size: 100px;
+
+	text-align: center;
+	height: 150px:;
+}
+#L{
+
+	padding: 5px;
+	float: left;
+	background-color: white;
+	width: auto;
+
+}
+
+#content{
+
+	padding: 5px;
+	font-family: verdana;
+	font-size: 12px;
+	color: #400010;
+	width: 700px;
+	background-color: white;
+	float: left;
+	text-align: justify;
+
+
+}
+
+#abc{
+
+	width: 1000px;
+	clear:both;
+}
