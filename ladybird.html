@@ -1,62 +1,69 @@
 <!DOCTYPE HTML>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Suknie ślubne Ladybird</title>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
 	
 	<link href="style.css" rel="stylesheet" type="text/css" />
+    
+	<title>Suknie ślubne Ladybird</title>
 	
-  </head>
+</head>
 
 <body>
-<div id="main">
-	
-	<div id="logo">Ladybird
-	</div>
-	
-	<div id="logo" style="font-size: 25px; margin-bottom: 10px;">Suknia Twoich marzeń</div>
-	
-	<div id="L">
-		<img src="suknia-slubna-lady-bird-2012-05.jpg" style="width: 250px;" />
-	</div>
-	
-	<div id="content" style="border-top: 1px dotted;">
-		Zbliża się ten dzień? Wymarzony dzień w którym powiecie sobie sakramentalne tak? Przygotowania zapewne pochłaniają Cię bez reszty 
-		i musisz myśleć o wszystkim. Ale czy w tym dniu jest coś ważniejszego niż wygląd Twojej sukni ślubnej?
-		Suknie ślubne Ladybird to idealny wybór dla Ciebie. Teraz w specjalnej, okazyjnej cenie. Zadziw wszystkich swoim pięknem, bo przecież jesteś piękna!
+	<div id="main">
 		
-		Jeśli chcesz złożyć zamówienie wypełnij poniższy formularz <br><br>
+		<div id="logo">Ladybird</div>
 		
+		<div id="subtitle">Suknia Twoich marzeń</div>
 		
-				<form>
-				Krój 
-				<select>
-				<option>Princessa</option>
-				<option>Empire</option>
-				<option>Syrena</option>
-				<option>Rybki</option>
-				<option>Nowości</option>
-			</select>
-			<br><br><br>
-			Dodatkowe wymagania<br>
-			<textarea></textarea>
-			<br><br><br>
-			Adres e-mail <input type="text">
-			<br><br><br><br>
-			<button>Wyślij</button>
+		<div id="img-div">
+			<img src="suknia-slubna-lady-bird-2012-05.jpg" id="girl" />
+		</div>
+		
+		<div id="content" style="border-top: 1px dotted;">
+			Zbliża się ten dzień? Wymarzony dzień w którym powiecie sobie sakramentalne tak? Przygotowania zapewne pochłaniają Cię bez reszty 
+			i musisz myśleć o wszystkim. Ale czy w tym dniu jest coś ważniejszego niż wygląd Twojej sukni ślubnej?
+			Suknie ślubne Ladybird to idealny wybór dla Ciebie. Teraz w specjalnej, okazyjnej cenie. Zadziw wszystkich swoim pięknem, bo przecież jesteś piękna!
 			
-			</form>
-		
+			Jeśli chcesz złożyć zamówienie wypełnij poniższy formularz <br /><br />
 			
+			<div class="form">
+				<form action="form.php" method="get">
+					
+					Krój
+					<select name="dress-type" size="1">
+						<option>Klasyczna</option>
+						<option>Prosta</option>
+						<option>Księżniczka</option>
+						<option>Empire</option>
+						<option>Litera A</option>
+						<option>Syrena</option>
+					</select>
+					
+					<br><br><br>
+					Dodatkowe wymagania
+					<br />
+					
+					<textarea name="comments" cols="30" rows="4"></textarea>
+					
+					<br><br><br>
+					Adres e-mail 
+					<input type="email" name="email" />
+					
+					<br><br><br>
+					
+					<input type="submit" name="submit" value="Wyślij" />
+				</form>
+			
+			</div>	
+			
+		</div>	
 		
-	</div>	
-	
-	<div id="abc">xcvx
-	</div>
-	
+		<div class="clear"></div>
+		
 
-	
-</div>
+		
+	</div>
 
 </body>
 
